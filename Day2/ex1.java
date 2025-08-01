@@ -5,6 +5,7 @@ class ex1{
         int n = sc.nextInt();
         int ans = fact(n);
         System.out.println(ans);
+        sc.close();
     }
     public static int fact(int n){
         if(n <= 1) return n;
